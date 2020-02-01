@@ -11,7 +11,7 @@
         <endorsed.dir>${project.build.directory}/endorsed</endorsed.dir>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+     
     <dependencies>
         <dependency>
             <groupId>org.eclipse.persistence</groupId>
@@ -98,8 +98,17 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    
+   
     <repositories>
+        <repository>
+      <id>central</id>
+      <name>Central Repository</name>
+      <url>https://repo.maven.apache.org/maven2</url>
+      <layout>default</layout>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
         <repository>
             <id>prime-repo</id>
             <name>PrimeFaces Maven Repository</name>

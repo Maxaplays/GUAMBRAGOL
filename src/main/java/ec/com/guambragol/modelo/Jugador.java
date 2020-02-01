@@ -43,7 +43,7 @@ public class Jugador implements Serializable {
     @Basic(optional = false)
     @NotNull
     @Column(name = "dorsal")
-    private int dorsal;
+    private Integer dorsal;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idJugador")
     private List<Carnet> carnetList;
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "idJugador")

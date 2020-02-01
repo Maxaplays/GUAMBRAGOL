@@ -33,13 +33,13 @@
                     <p:fieldset legend="Datos Personales" >
 
                         <h:panelGrid columns="3" > 
-                            <p:outputLabel for="txtNombres" value="Nombres" />
-                            <p:inputText id="txtNombre" value="#{usuarioControlador.persona.nombres}" required="true"/>
+                            <p:outputLabel for="txtNombre" value="Nombre" />
+                            <p:inputText id="txtNombre" value="#{joanControlador.persona.nombres}" required="true"/>
                             <p:message for="txtNombre" />
 
                             <p:outputLabel for="txtApellidos" value="Apellidos" />
                             <p:inputText id="txtApellidos" value="#{usuarioControlador.persona.apellidos}" required="true"/>
-                            <p:message for="txtApellifos" />
+                            <p:message for="txtApellidos" />
 
                             <p:outputLabel for="sorSexo" value="Sexo" />
                             <p:selectOneRadio id="sorSexo" value="#{usuarioControlador.persona.sexo}" required="true">

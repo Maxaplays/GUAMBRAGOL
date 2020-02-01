@@ -1,24 +1,92 @@
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/DetalleFechaCampeonao.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Campeonato.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Partidos.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Arbitro.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Posicion.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Disciplina.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/SancionesPartidos.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Persona.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/ClubDisciplina.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/TipoJugador.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/TablaPosiciones.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Cargo.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Liga.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Cambios.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/FechaPartido.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/GolesPartido.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/JugadorPartidfo.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Cancha.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Jugador.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Directiva.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Club.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Carnet.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Genero.java
-/Users/carlosballadares/Documents/Proyectos/guambraGol/src/main/java/ec/com/guambragol/modelo/Sanciones.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Campeonato.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Carnet.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Cambios.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PosicionFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Sanciones.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CalificacionArbitroFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ClubDisciplinaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeEquipoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DetalleFechaCampeonaoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PartidosFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Arbitro.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\DetalleFechaCampeonato.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\DetalleFechaCampeonao.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CarnetFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CargoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Disciplina.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\TablaPosicionesFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\GeneroFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorPartidfoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Club.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CanchaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\TablaPosiciones.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DetalleFechaCampeonaoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorPartidfoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\TipoJugador.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CambiosFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DetalleFechaCampeonatoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\FechaPartido.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\GolesPartidoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeVocalFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PersonaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CargoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\LigaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Cancha.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Jugador.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\TipoJugadorFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DetalleFechaCampeonatoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\FechaPartidoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ArbitroFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\SancionesFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\InformeArbitro.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\GeneroFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PosicionFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\ClubDisciplina.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Persona.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\TipoJugadorFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\controlador\vocaliaBean.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PersonaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\JugadorPartido.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\GolesPartidoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CalificacionArbitroFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Partidos.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CampeonatoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DisciplinaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\CalificacionArbitro.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\InformeVocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\PartidosFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\AbstractFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\FechaPartidoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeArbitroFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeArbitroFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\LigaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CanchaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeVocalFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Liga.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorPartidoFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\TablaPosicionesFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CarnetFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\JugadorPartidoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\GolesPartido.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Posicion.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ClubDisciplinaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ClubFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\SancionesPartidosFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\InformeEquipo.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ClubFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\JugadorPartidfo.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Cargo.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\SancionesFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DirectivaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\InformeEquipoFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DirectivaFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\ArbitroFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Directiva.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\SancionesPartidosFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\SancionesPartidos.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CambiosFacadeLocal.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\DisciplinaFacade.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\modelo\Genero.java
+C:\Users\JOAN-\OneDrive\Documentos\6to\Desarrollo Software\Proyecto\PRUEBA\GUAMBRAGOL\src\main\java\ec\com\guambragol\servicio\CampeonatoFacadeLocal.java

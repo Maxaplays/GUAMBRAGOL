@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+    <h:head>
+        <title>Listar Edificios</title>
+    </h:head>
+    <h:body>
+
+        <p:ajaxStatus style="width:16px;height:16px;" id="ajaxStatusPanel">
+            <f:facet name="start">
+                <h:graphicImage library="images" name="ajaxloading.gif" />
+            </f:facet>
+            <f:facet name="complete">
+                <h:outputText value="" />
+            </f:facet>
+        </p:ajaxStatus>
+
+        <h:form prependId="false" id="form">
+
+            <p:growl id="messages" showDetail="true" />
+            <p:messages />
+
+            <p:dataTable 
+                id="edificios" 
+                var="edificio" 
+                value="#{edificioBean.edificios}" 
+                editable="true" 
+                rowKey="#{edificio.id}"
+                selection="#{edificioBean.edificioSeleccionada}" 
+                selectionMode="single">
+
+                <f:facet name="header">  
+                    Lista de Edificios  
+                </f:facet>
+
+                <p:column headerText="Nombre">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{edificio.nombre}" />
+                        </f:facet>
+                        <f:facet name="input">
+                            <p:inputText value="#{edificio.nombre}" />
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="Direccion">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{edificio.direccion}" />
+                        </f:facet>
+                        <f:facet name="input">
+                            <p:inputText value="#{edificio.direccion}" />
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <p:column headerText="Numero Departamento">
+                    <p:cellEditor>
+                        <f:facet name="output">
+                            <h:outputText value="#{edificio.numeroDepartamentos}" />
+                        </f:facet>
+                        <f:facet name="input">
+                            <p:inputText value="#{edificio.numeroDepartamentos}" />
+                        </f:facet>
+                    </p:cellEditor>
+                </p:column>
+                <f:facet name="footer">
+                    <p:commandButton value="Regresar" action="index" />
+                    <p:spacer height="5px;"/>
+                    <p:commandButton value="Agregar" actionListener="#{edificioBean.reiniciarEdificioSeleccionada()}" oncomplete="PF('edificioDialogo').show();" update="edificios">
+                        <p:ajax event="dialogReturn" update="edificios"/>
+                    </p:commandButton>
+                </f:facet>
+
+                <p:column headerText="Opciones" style="width:50px">
+                    <p:rowEditor />
+                </p:column>
+
+                <p:ajax event="rowEdit" listener="#{edificioBean.editListener}">
+                </p:ajax>
+            </p:dataTable>
+
+
+
+            <p:contextMenu for="edificios">
+                <p:menuitem value="Eliminar" update="edificios" icon="ui-icon-close" actionListener="#{edificioBean.eliminarPersona()}" ajax="false"/>
+            </p:contextMenu>
+        </h:form>
+
+        <h:form id="dialogoForm" prependId="false">
+            <p:dialog header="Agregar Persona" widgetVar="edificioDialogo" modal="true" showEffect="fade" hideEffect="fade" resizable="false">
+                <p:outputPanel id="edificioDetalle" style="text-align:center;">
+                    <p:panelGrid  columns="2" columnClasses="label,value">
+                        <h:outputText value="Nombre" />
+                        <h:inputText value="#{edificioBean.edificioSeleccionada.nombre}" />
+
+                        <h:outputText value="Direcciones:" />
+                        <h:inputText value="#{edificioBean.edificioSeleccionada.direccion}" />
+
+                        <h:outputText value="Numero" />
+                        <h:inputText value="#{edificioBean.edificioSeleccionada.numeroDepartamentos}" />
+
+                        <h:outputText value="Color" />
+                        <h:inputText value="#{edificioBean.edificioSeleccionada.color}" />
+
+                        
+                        <f:facet name="footer">
+                            <h:commandButton value="Agregar" actionListener="#{edificioBean.agregarEdificio()}" />
+                        </f:facet>
+
+                    </p:panelGrid>
+                </p:outputPanel>
+            </p:dialog>
+        </h:form>
+    </h:body>
+
+</html>

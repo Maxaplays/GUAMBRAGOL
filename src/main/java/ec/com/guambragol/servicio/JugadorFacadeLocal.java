@@ -5,6 +5,7 @@
  */
 package ec.com.guambragol.servicio;
 
+import ec.com.guambragol.modelo.Club;
 import ec.com.guambragol.modelo.Jugador;
 import java.util.List;
 import javax.ejb.Local;
@@ -27,7 +28,8 @@ public interface JugadorFacadeLocal {
     List<Jugador> findAll();
 
     List<Jugador> findRange(int[] range);
-
+    List<Jugador> findByDorsal(int dorsal) throws Exception;
     int count();
+    List<Jugador> dorsalxEquipo(int id) ;
     
 }
